@@ -1,5 +1,5 @@
 body{
-    background: url("https://ooo-ado.ru/wp-content/uploads/2021/07/istoriya-ped.jpg") center no-repeat;
+    background: url("https://media.foxford.ru/wp-content/uploads/2020/03/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F.png") center;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -33,6 +33,63 @@ body{
 
 }
 
+.nav__link1 {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    vertical-align: top;
+    margin: 70px 20px 20px;
+    position: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav__link1:hover {
+    color: #fce38a;
+
+}
+
 .ps{
     color: #fce38a;
+}
+
+.info {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    display: flex;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info__link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    padding: 8px 30px;
+    position: center;
+    
+}
+
+.info__link:hover {
+    color: #fce38a;
+
+}
+
+.info1{
+    text-align: center;
+}
+
+.img1{
+    text-align: center;
 }
